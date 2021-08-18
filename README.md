@@ -7,7 +7,7 @@ A estrutura das pastas está organizada da seguinte maneira:
     -> src/         - Diretório com a logica de negócio 
     -> tests/       - Diretório para testes unitários futuros
 
--> lambda/          - Diretório para futuramente ser adicionada uma lambda funcion que irá acionar a aplicação
+-> lambda/          - Diretório para futuramente será adicionada uma lambda funcion que irá acionar a aplicação
 
 -Modo de usar:
 
