@@ -1,8 +1,7 @@
 # Classe que busca as informações
 import boto3
 
-my_region = boto3.session.Session().region_name
-region_name = 'us-east-1'
+region_name = boto3.session.Session().region_name
 ec2 = boto3.resource('ec2', region_name)
 
 for instance in ec2.instances.all():
