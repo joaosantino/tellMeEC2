@@ -20,6 +20,4 @@ Instalar a biblioteca boto3 com o seguinte comando:
 python -m pip install boto3
 
 Obs:
-A região default onde será feita a busca é us-east-1. Para alterar a região
-é necessário editar o arquivo app/src/getInformation.py e na variável global
-REGION_NAME colocar a região desejada.: Ex REGION_NAME = 'sa-east-1'
+A região default onde será feita a busca pelas instâncias é a da sua sessão configurada em seu AWSCLI.
